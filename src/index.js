@@ -10,6 +10,7 @@ const API_URL = process.env.API_URL;
 const CHANNEL_ID = '-1001751887491';
 // const CHANNEL_ID = '-1002500459840';
 const CHANNEL_LINK = 'https://t.me/CryptoWayX';
+const SUBS_FILE = path.join(__dirname, 'subs.json');
 
 const bot = new Telegraf(BOT_TOKEN);
 bot.use(session());
